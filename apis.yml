@@ -1,8 +1,20 @@
 aid: rayzebio
 name: RayzeBio
-description: 'RayzeBio is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  RayzeBio is a clinical-stage radiopharmaceutical therapeutics company headquartered at 5505
+  Morehouse Drive, Suite 300, San Diego, California, and since 2024 a wholly owned Bristol Myers
+  Squibb company. It develops targeted radiopharmaceutical therapies (RPTs) built on the
+  alpha-emitting isotope actinium-225, led by RYZ101 (225Ac-DOTATATE) against somatostatin
+  receptor 2 (SSTR2)-expressing tumors including gastroenteropancreatic neuroendocrine tumors,
+  extensive-stage small cell lung cancer and hormone-receptor-positive breast cancer, alongside
+  earlier programs targeting glypican-3 (GPC3) in hepatocellular carcinoma and ACP3, plus paired
+  diagnostic imaging agents such as [68Ga]Ga-RAYZ-8009. Its public web presence is a WordPress
+  corporate marketing site covering discovery capabilities, radioisotope manufacturing, the
+  pipeline, posters and presentations, leadership and careers; the company operates no developer
+  program and publishes no API, SDK, or machine-readable specification, and is profiled here for
+  network completeness rather than for an API surface.
 url: https://raw.githubusercontent.com/api-evangelist/rayzebio/refs/heads/main/apis.yml
+image: https://rayzebio.com/wp-content/uploads/2024/04/rayzebio_logo_grt_gry-300x122.png
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +24,14 @@ created: '2026-08-26'
 modified: '2026-08-26'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Radiopharmaceuticals
+- Life Sciences
+- Healthcare
+- Clinical Trials
+- Drug Discovery
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +39,59 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/rayzebio-domain-security.yml
 - type: Website
+  url: https://rayzebio.com/
+- type: About
+  url: https://rayzebio.com/about/about-overview/
+- type: Team
+  url: https://rayzebio.com/about/team/
+- type: Contact
+  url: https://rayzebio.com/contact/
+- type: Careers
+  url: https://rayzebio.com/careers/
+- type: BlogRSS
+  url: https://rayzebio.com/feed/
+- type: PrivacyPolicy
+  url: https://rayzebio.com/privacy-policy/
+- type: TermsOfService
+  url: https://rayzebio.com/terms-of-use/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/rayzebio/
+- type: ParentCompany
+  url: https://www.bms.com/
+- type: SecondaryMarketListing
   url: https://forgeglobal.com/rayzebio_stock/
+x-enrichment:
+  date: '2026-08-26'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    RayzeBio is a clinical-stage radiopharmaceutical drug developer, now a Bristol Myers Squibb
+    company, whose entire public surface is a 25-page WordPress marketing site — /openapi.json,
+    /openapi.yaml, /swagger.json, /api-docs, /graphql, /llms.txt and every /.well-known/* path
+    return a real 404, no GitHub org or npm/PyPI package exists under the name, and the only
+    machine-readable endpoint on the host is the default WordPress /wp-json/ CMS route index
+    (209 core/plugin routes: wp/v2, yoast, akismet, contact-form-7, wpe cache), which is
+    WordPress plumbing and not a RayzeBio API product.
+  evidence:
+  - url: https://rayzebio.com/openapi.json
+    status: 404
+  - url: https://rayzebio.com/graphql
+    status: 404
+  - url: https://rayzebio.com/.well-known/agent-card.json
+    status: 404
+  - url: https://rayzebio.com/llms.txt
+    status: 404
+  - url: https://rayzebio.com/wp-json/
+    status: 200
+  - url: https://api.github.com/orgs/rayzebio
+    status: 404
+  - url: https://rayzebio.com/media/news-new/
+    status: 301
+  checked: '2026-08-26'

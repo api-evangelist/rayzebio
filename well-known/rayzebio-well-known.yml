@@ -1,0 +1,32 @@
+generated: '2026-08-26'
+method: probed
+source: >-
+  Direct unauthenticated HTTPS GETs of the RFC 8615 well-known paths on the only host RayzeBio
+  operates, https://rayzebio.com (www.rayzebio.com 301s to it). Every path returned 404 — the
+  security.txt and llms.txt probes returned a bare nginx 404 body, the remainder returned the
+  WordPress theme's 404 template. No /.well-known document is served, so NO WellKnown or
+  SecurityTxt pointer is emitted in apis.yml; this file records a verified absence.
+hosts:
+- host: rayzebio.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
