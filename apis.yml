@@ -14,6 +14,17 @@ description: >-
   program and publishes no API, SDK, or machine-readable specification, and is profiled here for
   network completeness rather than for an API surface.
 url: https://raw.githubusercontent.com/api-evangelist/rayzebio/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://rayzebio.com/wp-content/uploads/2024/04/rayzebio_logo_grt_gry-300x122.png
 x-type: company
 x-source: harvest:secondary-market
