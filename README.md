@@ -64,5 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-RayzeBio is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/rayzebio_stock/
+RayzeBio is a clinical-stage radiopharmaceutical therapeutics company headquartered at 5505 Morehouse Drive, Suite 300, San Diego, California, and since 2024 a wholly owned Bristol Myers Squibb company. It develops targeted radiopharmaceutical therapies (RPTs) built on the alpha-emitting isotope actinium-225, led by RYZ101 (225Ac-DOTATATE) against somatostatin receptor 2 (SSTR2)-expressing tumors including gastroenteropancreatic neuroendocrine tumors, extensive-stage small cell lung cancer and hormone-receptor-positive breast cancer, alongside earlier programs targeting glypican-3 (GPC3) in hepatocellular carcinoma and ACP3, plus paired diagnostic imaging agents such as [68Ga]Ga-RAYZ-8009. Its public web presence is a WordPress corporate marketing site covering discovery capabilities, radioisotope manufacturing, the pipeline, posters and presentations, leadership and careers; the company operates no developer program and publishes no API, SDK, or machine-readable specification, and is profiled here for network completeness rather than for an API surface.
+
+**Areas:** Company · Biotechnology · Pharmaceuticals · Oncology · Radiopharmaceuticals · Life Sciences · Healthcare · Clinical Trials · Drug Discovery
+
+## RayzeBio on APIs.io
+
+Everything profiled for RayzeBio is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rayzebio/](https://apis.io/providers/rayzebio/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rayzebio Domain Security](https://apis.io/security/rayzebio/rayzebio-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://rayzebio.com/)
+- [Terms of service](https://rayzebio.com/terms-of-use/)
+- [Privacy policy](https://rayzebio.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 8.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rayzebio/](https://apis.io/providers/rayzebio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for RayzeBio: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rayzebio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
